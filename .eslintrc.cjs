@@ -8,12 +8,13 @@ module.exports = {
     parserOptions: {
         ecma: 2022,
         sourceType: 'module',
-        project: ['./tsconfig.json'],
+        project: true,
         ecmaFeatures: {jsx: true},
     },
     plugins: ['react', '@typescript-eslint', 'prettier'],
     extends: [
         'eslint:recommended',
+        'plugin:@tanstack/eslint-plugin-query/recommended',
         'plugin:react/recommended',
         'plugin:react-hooks/recommended',
         'plugin:@typescript-eslint/recommended',
@@ -73,7 +74,7 @@ module.exports = {
           'newlines-between': 'always',
             pathGroups: [
                 { pattern: 'react', group: 'external', position: 'before' },
-                // { pattern: '@tanstack/**', group: 'external', position: 'after' },
+                { pattern: '@tanstack/**', group: 'external', position: 'after' },
             ],
             pathGroupsExcludedImportTypes: ['react'],
         }

@@ -8,6 +8,7 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h3>admin-app</h3>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>

@@ -1,5 +1,5 @@
 {
-  "name": "monorepo_test",
+  "name": "@monorepo_test/admin-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
