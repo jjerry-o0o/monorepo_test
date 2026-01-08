@@ -2,6 +2,7 @@ import React from 'react';
 
 import logo from './logo.svg';
 import './App.css';
+import { Main } from './pages/Main';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           Learn React
         </a>
       </header>
+      <Main />
     </div>
   );
 };
