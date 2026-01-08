@@ -1,0 +1,12 @@
+[
+  {
+    "id": "1",
+    "title": "gs25 - 빼빼로",
+    "type": "INCOME",
+    "amount": 1500,
+    "category": "간식",
+    "paymentType": "신한더모아",
+    "description": null,
+    "createDt": "2026-01-08"
+  }
+]
