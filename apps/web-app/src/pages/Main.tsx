@@ -13,7 +13,7 @@ const Main = () => {
   // }, [CategoryData]);
 
   return (
-    <>
+    <div className="flex">
       <table>
         <thead>
           <th>날짜</th>
@@ -71,7 +71,7 @@ const Main = () => {
       <p>결제수단 관리</p>
       <input type="text" />
       <button>추가</button>
-    </>
+    </div>
   );
 };
 
